@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,200&family=Ubuntu:ital@0;1&display=swap');
+
+/* root  */
+:root {
+    --primary-color: #3730a3;
+    --dark-gray: #9ca3af;
+    --light-gray: #f3f4f6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* container  */
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-center {
+    max-width: 600;
+    margin: auto;
+    text-align: center;
+}
+
+/* link  */
+
+.link {
+    padding: 0.7rem;
+    text-decoration: none;
+}
+.link a{
+    margin: 0.6rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 1.5rem;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 1.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+/* list */
+.list {
+    list-style: none;
+}
+
+.list li {
+    padding: 0.2rem;
+}
+
+.list-ol li {
+    display: inline;
+    max-width: 350px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-link {
+    list-style: none;
+    text-align: right;
+}
+
+.nav-link li {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header  */
+.header {
+    text-align: center;
+    margin-top: 6.5rem;
+    margin-bottom: 6rem;
+}
+
+.header h1 {
+    color: var(--dark-gray);
+    margin-top: 3.3rem;
+}
+
+.header-text {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.header img {
+    display: block;
+    margin: auto;
+    max-width: 360px;
+    height: 50vh;
+}
+
+/* section  */
+section {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.section-offWhite {
+    background-color: var(--light-gray);
+}
+section p,section h3 {
+    margin:1.5rem;
+}
+
+/* footer  */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 1rem;  
+    text-align: center;
+}
+
+.footer h2 {
+    margin-left: 1rem;
+}
+
+.footer-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-link li {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Blog */
+.blog{
+    text-align: start;
+    margin-bottom: -5rem;
+}
