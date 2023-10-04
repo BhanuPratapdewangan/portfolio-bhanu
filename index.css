@@ -95,6 +95,10 @@ body {
     text-decoration: none;
     color: white;
 }
+.nav-brand{
+    font-weight: bold;
+    letter-spacing: 0.10cm;
+}
 
 /* header  */
 .header {
