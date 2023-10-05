@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs|Bhanu</title>
     <link rel="stylesheet" href="./index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <!-- Navigation  -->
-    <div class="container navigation">
-        <div class="nav-brand"><h2>Portfolio</h2></div>
-        <ul class="nav-link">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li style="font-weight: bold;"><a href="/">Blogs</a></li>
-        </ul>
-    </div>
+    <nav class="container navbar navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar">----</span>
+                    <span class="icon-bar">----</span>
+                    <span class="icon-bar">----</span>
+                </button>
+                <a class="navbar-brand" href="/">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class=" navbar-nav navbar-right">
+                    <li><a href=".">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./blogs.html">Blogs</a></li>
+                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul> -->
+            </div>
+        </div>
+    </nav>
 
     <!-- Header  -->
     <div class="container header">
@@ -29,8 +48,10 @@
     <section class="container section-offWhite">
         <h3>Dummy blog one</h3>
         <small>Semptember,2023</small>
-        <p>The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words.</p>
-        <div class="link">
+        <p>The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.
+            Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It
+            contains a series of real Latin words.</p>
+        <div class="container link">
             <a href="./blogs/dummy-blog.html" class="link link-primary" rel="primary-link">Read More</a>
             <!-- <a href="/" class="link link-secondary" rel="secondary-link">View Source</a> -->
         </div>
@@ -39,8 +60,8 @@
     <!-- Footer  -->
 
     <footer class="container footer">
-        <h2>This is the heading of the footer</h2>
-        <ul class="footer-link">
+        <h3>This is the heading of the footer</h3>
+        <ul class="container footer-link">
             <li><a href="https://github.com/BhanuPratapdewangan?tab=repositories">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/iambhanupratap77/">Linkdin</a></li>
             <!-- <li><a href="/">social3</a></li> -->
