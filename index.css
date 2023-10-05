@@ -133,13 +133,13 @@ body {
     /* header  */
     .header {
         text-align: center;
-        margin-top: 8rem;
-        margin-bottom: 6rem;
+        margin-top: 10rem;
+        margin-bottom: 9rem;
     }
 
     .header h1 {
         color: var(--dark-gray);
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 
     .header-text {
