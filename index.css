@@ -249,6 +249,17 @@ body {
     .link a {
         margin: 1.5rem;
     }
+    
+    .section-offWhite .link a, .section-white .link a{
+        text-decoration: none;
+    }
+    
+    section .container .link-primary {
+        color: white;
+    }
+    section .container .link-secondary{
+        color: var(--primary-color);
+    }
 
     .link-primary {
         background-color: var(--primary-color);
