@@ -221,6 +221,9 @@ body {
         text-align: start;
         margin-bottom: -5rem;
     }
+    .blog-ol{
+        margin-left: 5rem;
+    }
 }
 
 @media only screen and (orientation : portrait) {
