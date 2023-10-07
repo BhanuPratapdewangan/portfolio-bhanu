@@ -160,7 +160,6 @@ body {
         margin: 2rem;
         border-radius: 1rem;
         font-size: 1.6rem;
-        /* max-width: 850px; */
     }
 
     .section-offWhite {
@@ -449,5 +448,9 @@ body {
     .blog-li li{
         display: list-item;
         list-style-type: square;
+        margin-left: 4rem;
+        padding-inline-start: 0ch;
+        line-height: 2.5rem;
+        text-align: justify;
     }
 }
