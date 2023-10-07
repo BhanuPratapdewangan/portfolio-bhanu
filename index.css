@@ -224,6 +224,11 @@ body {
     .blog-ol{
         margin-left: 5rem;
     }
+    .blog-li li{
+        display: list-item;
+        list-style-type: circle;
+        margin-left: 3.5rem;
+    }
 }
 
 @media only screen and (orientation : portrait) {
@@ -440,5 +445,9 @@ body {
     }
     .blog-ol{
         margin-left: 5rem;
+    }
+    .blog-li li{
+        display: list-item;
+        list-style-type: square;
     }
 }
