@@ -448,7 +448,7 @@ body {
     .blog-li li{
         display: list-item;
         list-style-type: square;
-        margin-left: 4rem;
+        margin-left: 3.4rem;
         padding-inline-start: 0ch;
         line-height: 2.5rem;
         text-align: justify;
