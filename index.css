@@ -226,6 +226,12 @@ body {
         display: list-item;
         list-style-type: circle;
         margin-left: 3.5rem;
+        line-height: 2.5rem;
+        text-align: justify;
+        margin-right: 1.5rem;
+    }
+    .thankyou-msg {
+        margin:2rem;
     }
 }
 
@@ -452,5 +458,8 @@ body {
         line-height: 2.5rem;
         text-align: justify;
         margin-right: 1.5rem;
+    }
+    .thankyou-msg {
+        margin:2rem;
     }
 }
