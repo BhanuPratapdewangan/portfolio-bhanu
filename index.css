@@ -397,6 +397,7 @@ body {
         margin: 2rem;
         border-radius: 1rem;
         font-size: 1.6rem;
+        text-align : justify;
         /* max-width: 850px; */
     }
 
@@ -459,8 +460,9 @@ body {
         margin-bottom: -5rem;
     }
     .blog-ol{
-        margin-left: 3rem;
+        margin-left: 2rem;
         text-align: justify;
+        margin-right: 1rem;
     }
     .blog-ol li{
         list-style-type: disc;
