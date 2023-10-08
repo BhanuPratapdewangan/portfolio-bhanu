@@ -459,12 +459,14 @@ body {
         margin-bottom: -5rem;
     }
     .blog-ol{
-        margin-left: 5rem;
+        margin-left: 3rem;
+        text-align: justify;
     }
-    .blog-under{
-        display: list-item;
-        list-style-type: square;
-    }
+    .blog-ol li{
+        list-style-type: disc;
+        margin-left: 1rem;
+        text-align: justify;
+     }
     .blog-li li{
         display: list-item;
         list-style-type: square;
