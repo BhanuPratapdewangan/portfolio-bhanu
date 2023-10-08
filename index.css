@@ -221,6 +221,11 @@ body {
     }
     .blog-ol{
         margin-left: 5rem;
+        line-height: 3rem;
+    }
+    .blog-ol li{
+       list-style-type: disc;
+       margin-left: 2rem;
     }
     .blog-li li{
         display: list-item;
@@ -455,6 +460,10 @@ body {
     }
     .blog-ol{
         margin-left: 5rem;
+    }
+    .blog-under{
+        display: list-item;
+        list-style-type: square;
     }
     .blog-li li{
         display: list-item;
