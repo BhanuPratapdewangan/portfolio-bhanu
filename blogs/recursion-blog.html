@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursion</title>
+    <link rel="stylesheet" href="../index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="container navbar navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar">----</span>
+                    <span class="icon-bar">----</span>
+                    <span class="icon-bar">----</span>
+                </button>
+                <a class="navbar-brand" href="/">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class=" navbar-nav navbar-right">
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../blogs.html">Blogs</a></li>
+                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header  -->
+    <div class="container container-center header">
+        <h1>Today's topic <strong class="header-text">Recursion</strong> </h1>
+    </div>
+
+    <!-- Section  -->
+    <section class="container container-center blog">
+        <div>
+            <h4>
+                Hii... Developer good morning
+                Today topic is recursion................
+            </h4>
+
+            <h3>What is recursion?</h3>
+            <ol class="blog-ol">
+                <li>
+                    Recursion is a function when they call itself until the reaches end point or it's a programming
+                    technique which a function call itself during the execution.
+                </li>
+                <li>
+                    They have two component, first base case and second is recursive case.
+                </li>
+                <li>
+                    In the base case : It's used stop the recursive and
+                </li>
+                <li>
+                    In the recursive case : It's used call itself. They passed the version of the problem as an
+                    argunment.
+                </li>
+                <li>
+                    Basically recursion is used for solving the complex problem by breaking them into the small
+                    sub-problem.
+                </li>
+            </ol>
+
+            <h3>Why we use recursion?</h3>
+            <p>
+                <strong>Answer</strong> :
+                Because recursion is uses solve the complex problem by breaking them into the sub-problem. If we divided
+                into sub-problem they will easy to solve this problem. Tha't why we use recursion. However many things
+                why we use recursion but that is the basic thing why to use of recursion.
+            </p>
+
+            <h3>Needs of recursion?</h3>
+            <ol class="blog-ol">
+                <strong>Answer</strong>
+                <li>Solve complex problem</li>
+                <li>simplify the code</li>
+                <li>Handle hierarchical structure</li>
+                <li>Solve divide and conquer problem</li>
+            </ol>
+
+            <h3>Working of recursion funtion</h3>
+            <div class="blog-ol">
+                <li>
+                    When a recursive function is call they execute the function untill the reaches end point.
+                </li>
+                <li>
+                    Then reached the end point they return the values.
+                </li>
+                <li>
+                    For example :- find a factorial number (this is oldest suitable and easy to understand example of
+                    recursion working)
+                </li>
+                <ul>
+                    <p>
+                        First of all what is factorial number. In the mathematical concept.
+                        => If we find the factorial number of 5 so in mathematics
+                        we solve like this => 5*4*3*2*1 = 120 (120 is factorial of 5)
+                        - Let's see how this work
+                    </p>
+                    <p>
+                        That is code of find the factorial number
+
+                        function factorial(n){
+                        if(n == 0 || n == 1){ //base case
+                        return 1;
+                        } else {
+                        return n*factorial(n-1); // recursive case
+                        }
+                        }
+                        factorial(5);
+                    </p>
+                    <p>Step1 : First of all it's call factorial()f function with the 5 argument.</p>
+                    <p>Step2 : Then check the given condition. If condition is satisfy then return 1 or not then
+                        return
+                        5*factorial(5-1) means 5*factorial(4);</p>
+
+                    <p>
+                        Step3 : Then call the factorial(4) function itself when he call factorial() function first
+                        time.
+                    </p>
+                    <p>
+                        Step4 : After that check the condition again if condition is true then return 1 otherwise
+                        return
+                        4*factorial(4-1) means 4*factorial(3). This is 5 is also there it means
+                        5*4*factorial(3).
+                    </p>
+                    <p>
+                        Step5 : After then again and again call itself when they trigger factorial() function.
+                    </p>
+                    <p>
+                        Step6 : Then 2-3 times same proccess we have reaches
+
+                        5*4*3*2*factorial(1) then base case is execute and return 1;
+                    </p>
+                    <p>
+                        Step7 : They return 5*4*3*2*1 = 120 (that is the answer of factorial 5). So finally we have
+                        achieved.s
+                    </p>
+
+                </ul>
+                <p>That is the working of recursion he call itseft untill reaches the end point.</p>
+            </div>
+
+            <h3>Types of recursion</h3>
+            <div class="blog-ol">
+                <ol>
+                    <li>Base case</li>
+                    <li>Recursive case</li>
+                </ol>
+                <p>Base case : Base case is used for end the recursion.</p>
+                <p>Recursive case : recursive case is used for call itself.</p>
+                <p>Above example we have seen.</p>
+            </div>
+
+            <div>
+                <h3>Difference between recursive and iterative : </h3>
+                <p>We will see the 4 point's for differences based on there properties.
+                </p>
+                <p class="blog-ol">
+                    <img src="/images/difference_between_recursive_and_iterative.png" alt="output_create-element"
+                        width="60%" height="200" />
+                </p>
+            </div>
+
+            <div class="blog-ol">
+                <p> I hope you understand all thing. For better remember that all things you should write a blog on the
+                    'Recursion' in your own way, what you have understood.
+                </p>
+            </div>
+            <h4 class="thankyou-msg">Thank you! for read my blog... Ok Developers....... 😊 see you soon the next blog.
+            </h4>
+        </div>
+    </section>
+</body>
+
+</html>
