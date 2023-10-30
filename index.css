@@ -38,16 +38,20 @@ body {
         padding: 1rem;
     }
 
-    .section-offWhite .link a, .section-white .link a{
+    .section-offWhite .link a,
+    .section-white .link a {
         text-decoration: none;
     }
+
     .link a {
         margin: 0.6rem;
     }
+
     section .container .link-primary {
         color: white;
     }
-    section .container .link-secondary{
+
+    section .container .link-secondary {
         color: var(--primary-color);
     }
 
@@ -166,7 +170,8 @@ body {
         background-color: var(--light-gray);
     }
 
-    section p, section h3 {
+    section p,
+    section h3 {
         margin: 1.5rem;
     }
 
@@ -219,15 +224,18 @@ body {
         text-align: start;
         margin-bottom: -5rem;
     }
-    .blog-ol{
+
+    .blog-ol {
         margin-left: 5rem;
         line-height: 3rem;
     }
-    .blog-ol li{
-       list-style-type: disc;
-       margin-left: 2rem;
+
+    .blog-ol li {
+        list-style-type: disc;
+        margin-left: 2rem;
     }
-    .blog-li li{
+
+    .blog-li li {
         display: list-item;
         list-style-type: circle;
         margin-left: 3.5rem;
@@ -235,8 +243,9 @@ body {
         text-align: justify;
         margin-right: 1.5rem;
     }
+
     .thankyou-msg {
-        margin:2rem;
+        margin: 2rem;
     }
 }
 
@@ -263,18 +272,21 @@ body {
         margin: auto;
         display: block;
     }
+
     .link a {
         margin: 1.5rem;
     }
-    
-    .section-offWhite .link a, .section-white .link a{
+
+    .section-offWhite .link a,
+    .section-white .link a {
         text-decoration: none;
     }
-    
+
     section .container .link-primary {
         color: white;
     }
-    section .container .link-secondary{
+
+    section .container .link-secondary {
         color: var(--primary-color);
     }
 
@@ -377,12 +389,14 @@ body {
         width: 100%;
         height: auto;
     }
+
     .small-img img {
         display: block;
         margin: auto;
         width: 100%;
         height: auto;
     }
+
     img {
         width: 95%;
         height: auto;
@@ -458,17 +472,20 @@ body {
         text-align: start;
         margin-bottom: -5rem;
     }
-    .blog-ol{
+
+    .blog-ol {
         margin-left: 2rem;
         text-align: justify;
         margin-right: 1rem;
     }
-    .blog-ol li{
+
+    .blog-ol li {
         list-style-type: disc;
         margin-left: 1rem;
         text-align: justify;
-     }
-    .blog-li li{
+    }
+
+    .blog-li li {
         display: list-item;
         list-style-type: square;
         margin-left: 3.4rem;
@@ -477,8 +494,9 @@ body {
         text-align: justify;
         margin-right: 1.5rem;
     }
+
     .thankyou-msg {
-        margin:2rem;
+        margin: 2rem;
         margin-right: 1.5rem;
         text-align: justify;
     }
